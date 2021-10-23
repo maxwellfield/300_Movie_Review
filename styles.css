@@ -24,17 +24,19 @@ p {
     text-align: justify;
     line-height: 1.5;
 }
-div:first-letter {
+main > p:first-of-type:first-letter {
+    font-size: 4rem;
     background-image: url("tree-of-death.jpg");
-    margin-top: 5px;
-    margin-right: 5px;
-    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
     float: left;
-    color: white;
-    border: 2px solid darkred;
-    padding: 5px;
+    margin-right: .6rem;
+    margin-top: .6rem;
+    border: 2px solid #790000;
+    background-size: cover;
 }
-div:first-line {
+main > p:first-of-type:first-line {
     font-variant: all-small-caps;
 }
 #comp {
@@ -45,6 +47,7 @@ div:first-line {
 #cliff {
     width: 100%;
     border: 2px solid darkred;
+    background-color: black;
 }
 #xerxes {
     float: left;
