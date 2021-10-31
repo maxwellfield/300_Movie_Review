@@ -3,7 +3,7 @@ body {
     background: linear-gradient(darkred, black);
     font-family: Georgia;
 }
-main {
+article {
     border: 3px solid black;
     background-color: white;
     margin: 50px;
@@ -24,7 +24,7 @@ p {
     text-align: justify;
     line-height: 1.5;
 }
-main > p:first-of-type:first-letter {
+article > p:first-of-type:first-letter {
     font-size: 4rem;
     background-image: url("tree-of-death.jpg");
     background-color: #000;
@@ -36,7 +36,7 @@ main > p:first-of-type:first-letter {
     border: 2px solid #790000;
     background-size: cover;
 }
-main > p:first-of-type:first-line {
+article > p:first-of-type:first-line {
     font-variant: all-small-caps;
 }
 #comp {
@@ -47,7 +47,6 @@ main > p:first-of-type:first-line {
 #cliff {
     width: 100%;
     border: 2px solid darkred;
-    background-color: black;
 }
 #xerxes {
     float: left;
@@ -57,23 +56,6 @@ main > p:first-of-type:first-line {
 #footnote {
     font-size: x-small;
 }
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-        background-color: #F09A9D; /* Red */
-    }
-}
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-        background-color: #F5CF8E; /* Yellow */
-    }
-}
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-    body {
-        background-color: #B2D6FF; /* Blue */
-    }
-}
+
 
 
